@@ -1,0 +1,26 @@
+{
+  "name": "tshirtgallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/styles.css -w",
+    "live-server": "live-server public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brizism/tShirtGallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brizism/tShirtGallery/issues"
+  },
+  "homepage": "https://github.com/brizism/tShirtGallery#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
